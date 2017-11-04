@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "backgroundColor":"#000",
+    "borderStyle":"white",
+    "selectedColor":"#00ff00",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "浏览"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "发布"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}
